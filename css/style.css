@@ -1,0 +1,143 @@
+@import url('https://fonts.google.com/specimen/Lato');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+.team-section .container {
+    width: 80%;
+    margin: auto;
+}
+
+.team-section .container .row {
+    width: 60%;
+    margin: auto;
+}
+
+.team-section .container .row .title {
+    text-align: center;
+    margin-top: 50px;
+}
+.team-section .container .row .title h1{
+    font-size: 30px;
+    text-transform:inherit;
+    letter-spacing: 1.5px;
+    background-color: lightgrey;
+    border-radius: 0%;
+    color:#eb6234;
+}
+.team-section .container .row .title p{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align:center;
+    text-decoration:underline;
+    margin: 30px 0px;
+    color: black;
+   
+}
+.team-section .container .row .title h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color:aliceblue;
+    text-align: center;
+    margin: 30px 0px;
+    color:palevioletred;
+   
+}
+
+.team-section .container .team-card{
+    width: 100%;
+    display: grid;
+    text-align: center;
+    grid-template-columns:repeat(3,2fr) ;
+
+    grid-gap:40px;
+    margin-top: 50px;
+}
+
+
+
+.team-section .container .team-card .card{
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.team-section .container .team-card .card:hover{
+    background-color: #f3f3f3;
+    transition: 0.3s;
+}
+
+.team-section .container .team-card .card .image-section h2{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #639ab8;
+    
+
+}
+
+
+.team-section .container .team-card .card .image-section img{
+    margin-left:0%;
+    margin-right:0%;
+    height: 110px;
+    width: 100px;
+    border-radius: 50%;
+    border:6px solid #fff;
+
+}
+
+.team-section .container .team-card .card .content{
+    width: 100%;
+    text-align: center;
+
+}
+
+.team-section .container .team-card .card .content h3{
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #639ab8;
+
+}
+
+.team-section .container .team-card .card .content h4{
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #6e6e6e;
+
+}
+
+
+
+
+
+
+
+
+
